@@ -1,0 +1,73 @@
+:root {
+    --main-bg-color: #192224;
+    font-size: calc(0.5em + 1vw);
+}
+
+@import url('https: fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https: fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 18px / 27px 'Montserrat', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #192224;
+    color: #ffffff;
+}
+
+body {
+    margin: 0;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: #fff;
+    font-weight: 500;
+    background-color: #414647;
+}
+
+.uk-navbar-nav>li>a {
+    color: #fff;
+}
+
+.uk-navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid #fff;
+}
+
+.text-wrapp blank,
+.text blank {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #45af71;
+}
+
+.text-wrapp h1,
+.text h1 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.uk-card-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+}
+
+.text-size {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.color-block {
+    background-color: #192224;
+    color: #fff;
+}

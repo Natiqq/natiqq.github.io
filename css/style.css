@@ -1,0 +1,137 @@
+:root {
+    --main-bg-color: #283b53;
+    --main-color: #e3e6e9;
+    font-size: calc(0.5em + 1vw);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 18px / 27px 'Roboto', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: var(--main-bg-color);
+}
+
+.uk-navbar-nav>li>a {
+    color: var(--main-color);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a,
+.uk-link {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.uk-navbar-nav>li:hover>a {
+    color: var(--main-color);
+    border-bottom: 2px solid #e3e6e9;
+}
+
+.uk-navbar-nav>li>a:focus,
+.uk-navbar-nav>li>a.uk-open {
+    color: var(--main-color);
+    outline: none;
+}
+
+p,
+ul,
+ol,
+dl,
+pre,
+address,
+fieldset,
+figure {
+    margin: 115px 0 0 0;
+}
+
+h1,
+.uk-h1,
+h2,
+.uk-h2,
+h3,
+.uk-h3,
+h4,
+.uk-h4,
+h5,
+.uk-h5,
+h6,
+.uk-h6,
+.uk-heading-small,
+.uk-heading-medium,
+.uk-heading-large,
+.uk-heading-xlarge,
+.uk-heading-2xlarge {
+    margin: 0 0 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto';
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: none;
+}
+
+.uk-text-large {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+.uk-text-small {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+}
+
+.video-card-text h3.uk-card-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+}
+
+.video-card-text p.uk-width-2-1 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.uk-light .uk-button-primary,
+.uk-section-primary:not(.uk-preserve-color) .uk-button-primary,
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-primary,
+.uk-tile-primary:not(.uk-preserve-color) .uk-button-primary,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-button-primary,
+.uk-card-primary.uk-card-body .uk-button-primary,
+.uk-card-primary> :not([class*='uk-card-media']) .uk-button-primary,
+.uk-card-secondary.uk-card-body .uk-button-primary,
+.uk-card-secondary> :not([class*='uk-card-media']) .uk-button-primary,
+.uk-overlay-primary .uk-button-primary,
+.uk-offcanvas-bar .uk-button-primary {
+    background-color: #295b7f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.video-card-text {
+    background-color: #27394f;
+}
+
+@media (min-width: 960px) {
+    h1,
+    .uk-h1 {
+        font-size: 36px;
+        font-weight: 900;
+    }
+}
