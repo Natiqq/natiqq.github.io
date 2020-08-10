@@ -16,12 +16,12 @@
 
 <body>
     <header>
-        <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <nav class="uk-navbar-container uk-margin" uk-navbar uk-sticky="bottom: #offset">
             <div class="uk-navbar-left">
 
                 <a class="uk-navbar-item uk-logo" href="#"><img src="img/logo-img.png" alt="MRA"></a>
             </div>
-            <div class="uk-navbar-center">
+            <div class="uk-navbar-center uk-visible@s">
                 <ul class="uk-navbar-nav" uk-nav>
                     <li class="uk-width-1-6 uk-margin-right"><a href="#">Наблюдательный Совет</a></li>
                     <li class="uk-width-1-6 uk-margin-right"><a href="#">Экспертный Совет</a></li>
@@ -46,7 +46,9 @@
                         </li>
                     </ul>
                 </div>
+                <a href="#my-id" class="toggle uk-navbar-toggle uk-hidden@s" uk-toggle="target: #my-id" data-uk-offcanvas uk-icon="icon: menu"></a>
             </div>
+
         </nav>
         <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-background-cover uk-light" data-src="img/bg-img1.png" width="1044px" height="430px" uk-img>
             <h1 class="uk-width-1-2 uk-text-center">Межрегиональное развитие Арктической зоны</h1>
@@ -137,11 +139,11 @@
         <!-- The whole page content goes here -->
 
         <!-- This is a button toggling the off-canvas -->
-        <button uk-toggle="target: #my-id" type="button">open</button>
+
         <!-- This is an anchor toggling the off-canvas -->
         <a href="#my-id" uk-toggle></a>
         <!-- This is the off-canvas -->
-        <div id="my-id" uk-offcanvas="mode: slide;">
+        <div id="my-id" class="uk-offcanvas" uk-offcanvas="mode: slide;">
             <div class="uk-offcanvas-bar">
                 <ul class="uk-navbar-nav uk-flex uk-flex-column" uk-nav>
                     <li class="uk-width-1-1"><a href="#">Наблюдательный Совет</a></li>
