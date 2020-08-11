@@ -217,6 +217,12 @@ h6,
     .bg-image p {
         max-width: 50%;
     }
+    .text-size-title {
+        font-size: 36px;
+    }
+    .text-size {
+        font-size: 24px;
+    }
     h1,
     .uk-h1 {
         font-size: 36px;
@@ -268,11 +274,29 @@ h6,
     .bg-image {
         max-width: 100%;
     }
+    .uk-margin-medium-left {
+        margin-left: 0;
+    }
+    .text-size-title {
+        font-size: 16px;
+    }
+    .text-size {
+        font-size: 12px;
+    }
     .video {
         max-width: 100%;
         margin-left: 0;
     }
     footer h1 {
         font-size: 24px;
+    }
+}
+
+@media (min-width:640px) {
+    .text-size-title {
+        font-size: 30px;
+    }
+    .text-size {
+        font-size: 20px;
     }
 }
