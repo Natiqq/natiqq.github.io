@@ -127,6 +127,9 @@ h6,
 
 .video-card-text {
     background-color: #27394f;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
 }
 
 .toggle.uk-navbar-toggle {
