@@ -30,13 +30,27 @@ html {
     font-weight: 400;
 }
 
-a,
-.uk-link {
+.__form a,
+.__form.uk-link {
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
     font-size: 12px;
     font-weight: 400;
+}
+
+.agreement a,
+.agreement.uk-link {
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.agreement a:hover,
+.agreement.uk-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .uk-navbar-nav>li:hover>a {
@@ -143,6 +157,59 @@ h6,
 .uk-offcanvas-bar {
     opacity: 0.9;
     margin-top: 80px;
+}
+
+.bg-image [class*='uk-width'] {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.as-social [class*=as-icon-] {
+    color: #fff;
+    background-color: #1e87f0;
+    border-radius: 50%;
+    transition-property: border-radius, background-color;
+}
+
+.as-icon-facebook:hover {
+    background-color: #3B5999
+}
+
+.as-icon-youtube:hover {
+    background-color: #FF0000
+}
+
+.as-icon-instagram:hover {
+    background-color: #DB307F
+}
+
+.as-icon-twitter:hover {
+    background-color: #3FACE2
+}
+
+.as-icon-vk:hover {
+    background-color: #5181B8
+}
+
+.as-icon-odnoklassniki:hover {
+    background-color: #F58220
+}
+
+.as-icon-whatsapp:hover {
+    background-color: #3EE25B
+}
+
+.as-icon-viber:hover {
+    background-color: #7B519D
+}
+
+.as-icon-telegram:hover {
+    background-color: #24A1DE
+}
+
+[class*=as-icon-]:hover {
+    color: #fff;
+    border-radius: 6px
 }
 
 @media (min-width: 960px) {
