@@ -213,6 +213,10 @@ h6,
 }
 
 @media (min-width: 960px) {
+    .bg-image h1,
+    .bg-image p {
+        max-width: 50%;
+    }
     h1,
     .uk-h1 {
         font-size: 36px;
@@ -220,9 +224,18 @@ h6,
     }
 }
 
+@media (max-width: 960px) {
+    h1,
+    .uk-h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
 @media (max-width:500px) {
     .video-width {
         display: flex;
+        flex-direction: column;
         width: 100%;
     }
     .video-card-text h3.uk-card-title {
@@ -245,5 +258,21 @@ h6,
         justify-content: center;
         align-items: center;
         margin-bottom: 5em;
+    }
+}
+
+@media (min-width:250px) {
+    .body {
+        margin-right: 0;
+    }
+    .bg-image {
+        max-width: 100%;
+    }
+    .video {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    footer h1 {
+        font-size: 24px;
     }
 }
