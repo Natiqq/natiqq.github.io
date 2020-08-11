@@ -39,6 +39,11 @@ html {
     font-weight: 400;
 }
 
+.__form a:hover,
+.__form.uk-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
 .agreement a,
 .agreement.uk-link {
     color: #ffffff;

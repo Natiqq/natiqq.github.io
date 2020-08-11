@@ -17,7 +17,7 @@
 <body>
     <header>
 
-        <nav class="uk-navbar-container uk-margin" uk-navbar uk-sticky="bottom: #offset">
+        <nav class="uk-navbar-container  uk-margin" uk-navbar uk-sticky="bottom: #offset">
             <div class="uk-navbar-left">
 
                 <a class="uk-navbar-item uk-logo" href="#"><img src="img/logo-img.png" alt="MRA"></a>
@@ -38,8 +38,8 @@
                         <li><a href="#" class="uk-width-1-6 uk-margin-right">Регистрация</a></li>
                     </ul>
                 </div>
-                <div class="lang uk-navbar-container" uk-nav>
-                    <ul class="uk-navbar-nav" uk-nav>
+                <div>
+                    <ul class="uk-margin-right" uk-nav>
                         <li>
                             <a href="#"><img src="img/lang-rus.png" alt="lang"></a>
                         </li>
@@ -52,7 +52,7 @@
             </div>
 
         </nav>
-        <div class=" bg-image uk-width-1-1 uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-background-cover" data-src="img/bg-img1.png" uk-img>
+        <div class="uk-background-fixed bg-image uk-width-1-1 uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-background-cover" data-src="img/bg-img1.png" uk-img>
             <h1 class="uk-width-1-4 uk-text-center">Межрегиональное развитие Арктической зоны</h1>
             <p class="uk-text-center uk-width-1-4 uk-margin-remove-top">Межрегиональное научно-технологическое, деловое и образовательное партнерство</p>
         </div>
@@ -109,7 +109,7 @@
     </section>
     <!-- section with video -->
     <section class="uk-section">
-        <div class="uk-height-viewport uk-flex uk-background-cover uk-light" data-src="img/bg-main2.png" uk-img>
+        <div class="uk-background-fixed uk-height-viewport uk-flex uk-background-cover uk-light" data-src="img/bg-main2.png" uk-img>
             <div class="uk-container uk-flex uk-flex-column uk-flex-left uk-margin-top">
 
                 <h1 class="uk-width-1-1 uk-text-top uk-margin-medium-top">Развитие Арктической зоны в 2020-2025 годах</h1>
@@ -166,7 +166,9 @@
                 </a>
             </li>
         </ul>
-
+        <div>
+            <a href="#" class="uk-icon-button uk-text-primary" uk-totop uk-scroll></a>
+        </div>
     </footer>
     <div class="uk-offcanvas-content">
         <!-- The whole page content goes here -->
