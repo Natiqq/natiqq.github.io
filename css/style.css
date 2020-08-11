@@ -19,6 +19,17 @@ html {
     color: var(--main-color);
 }
 
+.container {
+    overflow: hidden;
+}
+
+.bgr-image {
+    max-width: 100%;
+    max-height: 334px;
+    margin-top: -79px;
+    background-color: rgba(40, 59, 83, 0.15);
+}
+
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: var(--main-bg-color);
     opacity: 0.7;
@@ -69,15 +80,8 @@ html {
     outline: none;
 }
 
-p,
-ul,
-ol,
-dl,
-pre,
-address,
-fieldset,
-figure {
-    margin: 115px 0 0 0;
+.ftr-color {
+    background: #1b2939;
 }
 
 h1,

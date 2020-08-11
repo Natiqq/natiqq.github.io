@@ -1,0 +1,44 @@
+.sprv {
+    font-size: 36px;
+    font-weight: 900;
+    max-width: 500px;
+    line-height: 46px;
+}
+
+.sprv-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+    max-width: 560px;
+}
+
+.sprv2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+.sprv-ul {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25.2px;
+    max-width: 630px;
+}
+
+.sprv2-mem {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+}
+
+.back {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.12px;
+    line-height: 16.8px;
+    text-decoration: underline;
+}
+
+.sprv-icon.uk-icon-button {
+    background: none;
+}
