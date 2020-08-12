@@ -42,3 +42,9 @@
 .sprv-icon.uk-icon-button {
     background: none;
 }
+
+.navul-disabled {
+    color: #9fddff;
+    border-top: 6px solid #9fddff;
+    border-radius: 4px;
+}

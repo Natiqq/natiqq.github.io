@@ -1,6 +1,6 @@
 :root {
     --main-bg-color: #283b53;
-    --main-color: #e3e6e9;
+    --main-color: #ffffff;
     font-size: calc(0.5em + 1vw);
 }
 
@@ -23,10 +23,15 @@ html {
     overflow: hidden;
 }
 
+.navbar {
+    padding: 0 60px 0 60px;
+    margin-top: 3px;
+}
+
 .bgr-image {
     max-width: 100%;
     max-height: 334px;
-    margin-top: -79px;
+    margin-top: -100px;
     background-color: rgba(40, 59, 83, 0.15);
 }
 
@@ -43,7 +48,7 @@ html {
 
 .__form a,
 .__form.uk-link {
-    color: #ffffff;
+    color: var(--main-color);
     text-decoration: none;
     cursor: pointer;
     font-size: 12px;
@@ -52,12 +57,12 @@ html {
 
 .__form a:hover,
 .__form.uk-link:hover {
-    border-bottom: 2px solid #fff;
+    border-top: 6px solid #9fddff;
 }
 
 .agreement a,
 .agreement.uk-link {
-    color: #ffffff;
+    color: var(--main-color);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -70,8 +75,10 @@ html {
 }
 
 .uk-navbar-nav>li:hover>a {
-    color: var(--main-color);
-    border-bottom: 2px solid #e3e6e9;
+    color: #9fddff;
+    border-top: 6px solid #9fddff;
+    border-radius: 4px;
+    margin-top: 4px;
 }
 
 .uk-navbar-nav>li>a:focus,
@@ -219,6 +226,10 @@ h6,
 [class*=as-icon-]:hover {
     color: #fff;
     border-radius: 6px
+}
+
+.margin-top {
+    margin-top: 100px;
 }
 
 @media (min-width: 960px) {
