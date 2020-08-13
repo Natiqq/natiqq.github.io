@@ -181,8 +181,8 @@ h6,
 }
 
 .as-social [class*=as-icon-] {
-    color: #fff;
-    background-color: #1e87f0;
+    color: #000000;
+    background-color: #ffffff;
     border-radius: 50%;
     transition-property: border-radius, background-color;
 }
