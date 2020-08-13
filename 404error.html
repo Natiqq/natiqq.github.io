@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRA</title>
+    <!-- Начало создания сайта - 09.08.2020 - 11:00 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/include.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar uk-navbar-container" uk-navbar uk-sticky="bottom: #offset">
+                <div class="uk-navbar-left">
+
+                    <a class="uk-navbar-item uk-logo" href="index.html"><img src="img/logo-img.png" alt="MRA"></a>
+                </div>
+
+                <div class="uk-navbar-center uk-visible@s">
+                    <ul class="uk-navbar-nav" uk-nav>
+                        <li class="uk-width-1-6 uk-margin-right"><a href="supervisory.html">Наблюдательный Совет</a></li>
+                        <li class="uk-width-1-6 uk-margin-right"><a href="page_2.html">Экспертный Совет</a></li>
+                        <li class="uk-width-1-6 uk-margin-right"><a href="page_3.html">Совет Партнерства</a></li>
+                        <li class="uk-width-1-6"><a href="page_4.html">Аналитический центр</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <div class="__form" uk-nav>
+                        <ul>
+                            <li><a href="reg_form.html" class="uk-width-1-6 uk-margin-right">Вход<br>Регистрация</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="uk-margin-right" uk-nav>
+                            <li>
+                                <a href="#"><img src="img/lang-rus.png" alt="lang"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/lang-eng.png" alt="lang"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#my-id" class="toggle uk-navbar-toggle uk-hidden@s" uk-toggle="target: #my-id" data-uk-offcanvas uk-icon="icon: menu"></a>
+                </div>
+
+            </nav>
+            <div class=" bgr-image uk-background-fixed bg-image uk-width-1-1 uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-background-cover" data-src="img/bg-404.png" uk-img>
+                <span class="uk-width-1-2 uk-text-center" style="font-size: 200px;font-weight: 900;"></span>
+                <p class="uk-text-center uk-width-1-4 uk-margin-remove-top">Извините, мы не нашли данную страницу</p>
+            </div>
+            <div class="return">
+                <a href="index.html">Вернуться на главную</a>
+            </div>
+        </header>
+
+        <div w3-include-html="footer.html"></div>
+        <div w3-include-html="offcanvas.html"></div>
+
+        <script>
+            includeHTML();
+        </script>
+</body>
+
+</html>
