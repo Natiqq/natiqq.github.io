@@ -310,6 +310,10 @@ h6,
     footer h1 {
         font-size: 24px;
     }
+    .navbar {
+        padding: 0 5px 0 5px;
+        margin-top: 3px;
+    }
 }
 
 @media (min-width:640px) {
