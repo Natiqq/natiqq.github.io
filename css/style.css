@@ -238,6 +238,14 @@ h6,
     margin-top: 100px;
 }
 
+.agreement {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    order: 3;
+}
+
 @media (min-width: 960px) {
     .bg-image h1,
     .bg-image p {
@@ -284,12 +292,22 @@ h6,
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        order: 1;
     }
     .social {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         margin-bottom: 5em;
+        order: 2;
+    }
+    .agreement {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        order: 3;
     }
 }
 
