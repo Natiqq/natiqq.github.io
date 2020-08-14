@@ -241,8 +241,7 @@ h6,
 .agreement {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    margin-left: 70px;
     order: 3;
 }
 
@@ -298,7 +297,6 @@ h6,
     .social {
         display: flex;
         justify-content: flex-end;
-        align-items: center;
         margin-bottom: 5em;
         order: 2;
     }
